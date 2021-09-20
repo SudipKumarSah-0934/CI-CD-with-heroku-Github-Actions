@@ -25,7 +25,7 @@ jobs:
 
       - uses: akhileshns/heroku-deploy@v3.8.9
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_api_key: "fa1f23a6-7e32-44ab-988d-7883ce1ac415"
           heroku_app_name: "sudip-add"
-          heroku_email: "sudip.shah23@gmail.com"
+          heroku_email: "sudip.shah23@gmai.com"
           procfile: "web: gunicorn index:app"
